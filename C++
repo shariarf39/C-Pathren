@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+    int input;
+
+    cout<<"Please enter your number=  ";
+
+    cin >> input;
+
+    for(int raw = 1; raw <= input; raw++)
+    {
+        for(int cal = 1; cal<=raw; cal++)
+        {
+            cout << "#";
+        }
+
+        cout <<endl;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
